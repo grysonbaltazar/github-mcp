@@ -1,0 +1,31 @@
+{
+  "name": "github-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for GitHub API integration - get information about repos, PRs, commits, and more",
+  "type": "module",
+  "bin": {
+    "github-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "api",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@octokit/rest": "^20.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
+
