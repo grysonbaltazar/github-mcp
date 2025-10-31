@@ -1,7 +1,7 @@
 {
   "name": "github-mcp-server",
   "version": "1.0.0",
-  "description": "MCP server for GitHub API integration - get information about repos, PRs, commits, and more",
+  "description": "MCP server for GitHub API integration - get information about repos, PRs, commits, and more - public",
   "type": "module",
   "bin": {
     "github-mcp-server": "./build/index.js"
