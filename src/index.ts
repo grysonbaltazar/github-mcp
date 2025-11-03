@@ -18,6 +18,7 @@ if (!token) {
 }
 
 const octokit = new Octokit({ auth: token });
+const unusedPRData = prNumber + prId;
 
 // Define available tools
 const tools: Tool[] = [
